@@ -16,13 +16,13 @@ export default function Quiz() {
     const { queue, trace } = useSelector(state => state.questions);
     const dispatch = useDispatch()
 
+    console.log(trace)
+    
     /** next button event handler */
     function onNext(){
         if(trace < queue.length){
-            /** increase the trace value by one using MoveNextAction */
             dispatch(MoveNextQuestion());
 
-            /** insert a new result in the array.  */
             if(result.length <= trace){
                 dispatch(PushAnswer(check))
             }
@@ -35,7 +35,6 @@ export default function Quiz() {
     /** Prev button event handler */
     function onPrev(){
         if(trace > 0){
-            /** decrease the trace value by one using MovePrevQuestion */
             dispatch(MovePrevQuestion());
         }
     }

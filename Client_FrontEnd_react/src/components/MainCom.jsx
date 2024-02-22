@@ -29,11 +29,13 @@ export default function MainCom() {
         </ol>
 
         <form id="form">
-            <input ref={inputRef} className="userid" type="text"id="name" name="name" required minlength="4" maxlength="8"placeholder='Username*' />
+            <input ref={inputRef} className="userid" type="text"  id="name" autocomplete="on" 
+            // name="name" required minlength="4" maxlength="8" 
+            placeholder='Username*' />
         </form>
 
         <div className='start'>
-            <Link className='btn' to={'quiz'} onClick={startQuiz}>Start Quiz</Link>
+            <Link className='btn' to={'/quiz'} onClick={startQuiz}>Start Quiz</Link>
         </div>
 
     </div>
