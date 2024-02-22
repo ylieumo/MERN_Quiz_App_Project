@@ -10,5 +10,5 @@ Currently, two official plugins are available:
 
 
 This is the link to the fall stack projext on vercel:
-https://vercel.com/new/yolande-s-projects/success?developer-id=&external-id=&redirect-url=&branch=main&deploymentUrl=quizapp-client-1dcl5ew7r-yolande-s-projects.vercel.app&projectName=quizapp-client&s=https%3A%2F%2Fgithub.com%2Fylieumo%2FMERN_Quiz_App_Project&gitOrgLimit=&hasTrialAvailable=1&totalProjects=1
 
+https://quizapp-client.vercel.app/
