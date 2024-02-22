@@ -1,0 +1,12 @@
+POST  http://localhost:5050/api/result HTTP/1.1
+content-type: application/json
+
+
+   {
+   "username" : "yolande",
+    "result" : [1,2,3,4],
+    "attempts" : 2,
+    "points" : 3,
+    "achived" : "passed"
+}
+    
